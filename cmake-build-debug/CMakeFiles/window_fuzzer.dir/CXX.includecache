@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/haoliu/workspace/clion/sqlite_mutator/generator.h
+utils.h
+/Users/haoliu/workspace/clion/sqlite_mutator/utils.h
+
+/Users/haoliu/workspace/clion/sqlite_mutator/table.h
+iostream
+-
+vector
+-
+
+/Users/haoliu/workspace/clion/sqlite_mutator/utils.h
+iostream
+-
+string
+-
+vector
+-
+random
+-
+
+/Users/haoliu/workspace/clion/sqlite_mutator/window_fuzzer.cpp
+generator.h
+/Users/haoliu/workspace/clion/sqlite_mutator/generator.h
+table.h
+/Users/haoliu/workspace/clion/sqlite_mutator/table.h
+

@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libgenerator.a  CMakeFiles/generator.dir/cast_expr_as_generator.cpp.o CMakeFiles/generator.dir/expr_generator.cpp.o CMakeFiles/generator.dir/literal_value_generator.cpp.o CMakeFiles/generator.dir/stc_generator.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libgenerator.a

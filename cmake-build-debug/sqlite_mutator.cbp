@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sqlite_mutator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\expr\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generator">
+				<Option output="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/libgenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/haoliu/workspace/clion/sqlite_mutator/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 generator"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generator/fast">
+				<Option output="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/libgenerator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/haoliu/workspace/clion/sqlite_mutator/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 generator/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j12 -f &quot;/Users/haoliu/workspace/clion/sqlite_mutator/cmake-build-debug/expr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/expr/cast_expr_as_generator.cpp">
+			<Option target="generator"/>
+		</Unit>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/expr/expr_generator.cpp">
+			<Option target="generator"/>
+		</Unit>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/expr/literal_value_generator.cpp">
+			<Option target="generator"/>
+		</Unit>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/expr/stc_generator.cpp">
+			<Option target="generator"/>
+		</Unit>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/haoliu/workspace/clion/sqlite_mutator/expr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\expr\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
